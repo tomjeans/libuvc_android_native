@@ -1,0 +1,1 @@
+cmake -DANDROID_TOOLCHAIN=clang -DTARGET_SOC=rk3588 -DCMAKE_SYSTEM_NAME=Android -DCMAKE_TOOLCHAIN_FILE=/mnt/d/android-ndk-r21e/build/cmake/android.toolchain.cmake -DANDROID_ABI="arm64-v8a" -DANDROID_STL=c++_static -DANDROID_PLATFORM=android-24 -DCMAKE_BUILD_TYPE=Release ..
